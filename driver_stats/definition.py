@@ -1,6 +1,13 @@
 from datetime import timedelta
-from feast.types import Float32
-from feast import Entity, Field, FeatureView, FileSource, ValueType
+
+from feast import (
+    Entity,
+    FeatureView,
+    Field,
+    FileSource,
+    ValueType
+)
+from feast.types import Float32, Int64
 
 driver_entity = Entity(
     name="driver_id",
@@ -11,19 +18,18 @@ driver_entity = Entity(
 
 file_source = FileSource(
     path="data/driver_stats_with_string.parquet",
-    event_timestamp_column="event_timestamp",
+    timestamp_field="event_timestamp",
     created_timestamp_column="created"
 )
-
 driver_stats_fv = FeatureView(
     name="driver_stats_fv",
-    ttl=timedelta(days=3),
-    description="This feature view contains the statistics of the drivers",
     entities=[driver_entity],
+    ttl=timedelta(days=3),
     schema=[
         Field(name="conv_rate", dtype=Float32),
         Field(name="acc_rate", dtype=Float32),
         Field(name="avg_daily_trips", dtype=Float32)
     ],
-    source=file_source
+    source=file_source,
+    description="This feature view contains the statistics of the drivers",
 )
