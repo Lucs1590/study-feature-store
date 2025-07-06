@@ -1,0 +1,23 @@
+
+\
+<
+	driver_idThe ID of the driver"	driver_idJdriver_stats
+ƒ¾«ÃØáâšƒ¾«ÃØáâš
+C
+#
+__dummy"
+__dummy_idJdriver_stats
+ƒ¾«Ã »çšƒ¾«Ã »çš1"$b7021672-be80-4031-a6be-fe0f833e12dc*ƒ¾«ÃÀª÷š2ò
+Ñ
+driver_stats_fvdriver_stats	driver_id"
+	conv_rate"
+acc_rate"
+avg_daily_trips2€é:¡event_timestamp*createdZ'%data/driver_stats_with_string.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢%data/driver_stats_with_string.parquet@R8This feature view contains the statistics of the driversb
+	driver_id
+ƒ¾«ÃÀÎëšƒ¾«ÃÀÎëšR¤
+¡
+,feast.infra.online_stores.sqlite.SqliteTable"q
+Q/home/brito/Documents/repos/study-feature-store/driver_stats/data/online_store.dbdriver_stats_driver_stats_fvb°event_timestamp*createdZ'%data/driver_stats_with_string.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢%data/driver_stats_with_string.parquetªdriver_statsŠ.
+
+driver_stats
+ƒ¾«Ã˜ôèƒ¾«Ã˜ôè
