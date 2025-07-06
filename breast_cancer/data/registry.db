@@ -1,0 +1,94 @@
+
+B
+$
+__dummy"
+__dummy_idJbreast_cancer
+¨£§Ã¨­§W¨£§Ã¨­§W
+^
+@
+
+patient_idThe ID of the patient"
+patient_idJbreast_cancer
+¨£§Ã°¤·W¨£§Ã°¤·W1"$7db000b9-1757-4cb0-b97d-57f2b9cf2c08*¨£§ÃĞÖY2¶
+—
+df3_feature_viewbreast_cancer
+patient_id"
+radius error"
+texture error"
+perimeter error"
+
+area error"
+smoothness error"
+compactness error"
+concavity error2€é:xevent_timestampZdata/data_df3.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢data/data_df3.parquet@RJThis feature view contains the error features of the breast cancer datasetb
+
+patient_id
+¨£§ÃĞ–ÆW¨£§ÃĞ–ÆW2„
+å
+df1_feature_viewbreast_cancer
+patient_id"
+mean radius"
+mean texture"
+mean perimeter"
+	mean area"
+mean smoothness2€é:xevent_timestampZdata/data_df1.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢data/data_df1.parquet@RIThis feature view contains the mean features of the breast cancer datasetb
+
+patient_id
+¨£§Ã¨äèW¨£§Ã¨äèW2›
+ü
+df2_feature_viewbreast_cancer
+patient_id"
+mean compactness"
+mean concavity"
+mean concave points"
+mean symmetry"
+mean fractal dimension2€é:xevent_timestampZdata/data_df2.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢data/data_df2.parquet@RIThis feature view contains the mean features of the breast cancer datasetb
+
+patient_id
+¨£§Ã¸®”X¨£§Ã¸®”X2¼
+
+target_feature_viewbreast_cancer
+patient_id"
+
+target2€é:zevent_timestampZdata/target_df.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢data/target_df.parquet@RKThis feature view contains the target variable of the breast cancer datasetb
+
+patient_id
+¨£§ÃøŒ´X¨£§ÃøŒ´X2Ì
+­
+df4_feature_viewbreast_cancer
+patient_id"
+concave points error"
+symmetry error"
+fractal dimension error"
+worst radius"
+worst texture"
+worst perimeter"
+
+worst area"
+worst smoothness"
+worst compactness"
+worst concavity"
+worst concave points"
+worst symmetry"
+worst fractal dimension2€é:xevent_timestampZdata/data_df4.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢data/data_df4.parquet@RJThis feature view contains the worst features of the breast cancer datasetb
+
+patient_id
+¨£§ÃĞşÊX¨£§ÃĞşÊXRÆ
+¤
+,feast.infra.online_stores.sqlite.SqliteTable"t
+R/home/brito/Documents/repos/study-feature-store/breast_cancer/data/online_store.dbbreast_cancer_df1_feature_view
+¤
+,feast.infra.online_stores.sqlite.SqliteTable"t
+R/home/brito/Documents/repos/study-feature-store/breast_cancer/data/online_store.dbbreast_cancer_df2_feature_view
+¤
+,feast.infra.online_stores.sqlite.SqliteTable"t
+R/home/brito/Documents/repos/study-feature-store/breast_cancer/data/online_store.dbbreast_cancer_df3_feature_view
+¤
+,feast.infra.online_stores.sqlite.SqliteTable"t
+R/home/brito/Documents/repos/study-feature-store/breast_cancer/data/online_store.dbbreast_cancer_df4_feature_view
+§
+,feast.infra.online_stores.sqlite.SqliteTable"w
+R/home/brito/Documents/repos/study-feature-store/breast_cancer/data/online_store.db!breast_cancer_target_feature_viewbŠevent_timestampZdata/target_df.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢data/target_df.parquetªbreast_cancerbˆevent_timestampZdata/data_df2.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢data/data_df2.parquetªbreast_cancerbˆevent_timestampZdata/data_df1.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢data/data_df1.parquetªbreast_cancerbˆevent_timestampZdata/data_df3.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢data/data_df3.parquetªbreast_cancerbˆevent_timestampZdata/data_df4.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢data/data_df4.parquetªbreast_cancerŠ-
+
+breast_cancer
+¨£§Ã¸æĞ"¨£§Ã¸æĞ"
